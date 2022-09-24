@@ -130,7 +130,7 @@ z-index: 1;
 
 .pha{
     position: relative;
-    top: 27%;
+    top: 28%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
@@ -220,30 +220,14 @@ z-index: 1;
     
 }
 
-.corner p{
-    width: 5.73px;
-    height: 10.32px;
-    left: 810.5px;
-    top: 173.08px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 6.82632px;
-    line-height: 10px;
-    /* identical to box height */
-    
-    
-    color: #FFFFFF;
-    
-    transform: rotate(-15.97deg);
-}
+
 
 /* total people list  */
 .total-people{
+    position: relative;
     height: 159px;
     left: 0px;
-    top: 737px;
+    top: 700;
     background: #051926;
     margin-top: 139px;
     padding-top: 3%;
@@ -470,6 +454,8 @@ color: #FFFFFF;
     line-height: 21px;
     text-transform: uppercase;
     color: #52FF00;
+    margin-bottom: 0;
+    padding-top: 48px;
 }
 
 .mint{
@@ -480,6 +466,7 @@ color: #FFFFFF;
     line-height: 48px;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-top: 0;
 }
 
 .lorem{
@@ -495,10 +482,102 @@ color: #FFFFFF;
    
 }
 
-.lorem, .mint, .easy{
+.lorem{
     padding-top: 15px;
 }
 
 .details, .photo{
     margin: 0px 61px;
 }
+
+
+/* roadmap section  */
+
+.road{
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.roadmap{
+    position: relative;
+    width: 427px;
+    height: 427px;
+    left: 1122px;
+    background: #2B1137;
+    filter: blur(141.5px);
+    float: left;
+}
+
+
+/* .roadmap end  */
+
+
+
+.our{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #52FF00;
+}
+
+.road-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.under{ 
+    border-bottom: 21px solid #051926;
+    background-repeat: no-repeat;
+    width: 910px !important;
+    padding: 0px !important;
+}
+
+
+/* road map title  */
+
+.phase1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 9.08444px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #52FF00;
+}
+
+.phase{
+    margin-left: 23px;
+}
+
+.dis{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20.7644px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.dis-det{
+    width: 291px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.63);
+    
+}
+
