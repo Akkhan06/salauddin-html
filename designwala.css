@@ -322,17 +322,17 @@ color: #FFFFFF;
 
 .lal-shap{
     position: absolute;
-    top: 200px;
+    ;
     width: 239px;
     left: 150px;
-    height: 239px;
+    height: 200px;
     background: #741976;
     filter: blur(141.5px);
 }
 
 .nil-shap{
     position: relative;
-    bottom: 190px;
+    bottom: 250px;
     width: 324px;
     height: 324px;
     background: #0C404A;
@@ -429,9 +429,76 @@ color: #FFFFFF;
 
 .main-number{
     position: relative;
-    top: -100px;
+    top: -200px;
 }
 
 .all{
     padding-top: 25px;
+}
+
+/* how to mint */
+
+.mint-section{
+    position: relative;
+    height: 348px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 61px;
+    top: -150px;
+}
+
+.photo{
+    width: 342px;
+    height: 494px;
+    left: 203px;
+    top: 1901px;
+    background: linear-gradient(0deg, rgba(156, 253, 53, 0.51) -219.77%, rgba(131, 255, 0, 0) 84.51%);
+    backdrop-filter: blur(237px);
+    
+}
+
+.details{
+    width: 450px;
+    height: auto;
+
+}
+.easy{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #52FF00;
+}
+
+.mint{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.lorem{
+    width: 450px;
+    height: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.63);
+   
+}
+
+.lorem, .mint, .easy{
+    padding-top: 15px;
+}
+
+.details, .photo{
+    margin: 0px 61px;
 }
