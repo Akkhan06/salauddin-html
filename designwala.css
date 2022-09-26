@@ -335,6 +335,7 @@ color: #FFFFFF;
     font-size: 64px;
     line-height: 96px;
     transform: translate(-50%, -50%);
+    
 }
 
 .one:nth-child(1){
@@ -395,8 +396,8 @@ color: #FFFFFF;
 
 .design-number{
     font-family: 'Poppins';
-
     margin: 0px 63px;
+    z-index: 1;
 }
 
 .connect{
@@ -496,17 +497,18 @@ color: #FFFFFF;
 .road{
     position: absolute;
     width: 100%;
-    overflow-x: hidden;
+    height: 500px;
+    
 }
 
 .roadmap{
     position: relative;
-    width: 427px;
+    width: 240px;
     height: 427px;
-    left: 1122px;
+    left: 1060px;
     background: #2B1137;
-    filter: blur(141.5px);
-    float: left;
+    filter: blur(130px);
+    
 }
 
 
@@ -535,6 +537,8 @@ color: #FFFFFF;
     margin-bottom: 8px;
 }
 
+
+
 .under{ 
     border-bottom: 21px solid #051926;
     background-repeat: no-repeat;
@@ -557,6 +561,7 @@ color: #FFFFFF;
 
 .phase{
     margin-left: 23px;
+    z-index: 1;
 }
 
 .dis{
@@ -580,4 +585,89 @@ color: #FFFFFF;
     color: rgba(255, 255, 255, 0.63);
     
 }
+
+/* card section  */
+
+
+
+.card-lal{
+    position: relative;
+    width: 221.45px;
+    height: 239.72px;
+    background: #FF006C;
+    border-radius: 8.76737px;
+    margin: 0px 11px;
+    text-align: center;
+}
+
+.card-lal img{
+    position: relative;
+    top: -30%;
+}
+
+
+
+
+.card_lal_main .social{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.5012px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    opacity: 0.8;
+}
+
+.card_lal_main .dis{
+    text-align: center;
+    margin-top: -53px;
+    
+}
+
+
+.card_lal_main{
+
+    align-items: center;
+    margin-top: 100px;
+}
+
+.profile-section{
+    position: relative;
+    width: 100%;
+    height: 577px;
+    background: linear-gradient(180deg, rgba(208, 208, 208, 0.1) 0%, rgba(208, 208, 208, 0.04) 97.92%);
+    backdrop-filter: blur(37px);
+    top: 100px;
+    padding-top: 100px;
+    z-index: 1;
+   
+}
+
+.blur1{
+    position: relative;
+    width: 446px;
+    height: 446px;
+    left: -161px;
+    top: -130px;
+    background: #112513;
+    filter: blur(141.5px);
+}
+
+
+
+/* qustion section  */
+
+.qustion {
+text-align: center;
+position: relative;
+top: -275px;
+
+}
+
+
+
+
+
 
