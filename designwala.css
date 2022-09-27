@@ -660,10 +660,41 @@ color: #FFFFFF;
 /* qustion section  */
 
 .qustion {
-text-align: center;
-position: relative;
-top: -275px;
+    
+    position: relative;
+    top: -275px;
 
+}
+
+.all_quastion{
+    width: 100%;
+}
+
+
+
+.p_q{
+    background-color: #11181E;
+    margin: 20px 200px;
+    padding: 1px 20px;
+    width: auto;
+    
+}
+
+.p_q p{
+    height: 31px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20.7644px;
+    line-height: 31px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 2%;
+    padding-top: 4px;
+}
+
+.plus{
+    padding-top: 10px;
 }
 
 
