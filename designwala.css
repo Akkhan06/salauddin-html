@@ -42,7 +42,7 @@ height: 21px !important;
 
 
 .navButton{
-    margin: 0px 40px;
+    margin: 0px 30px;
 }
 
 
@@ -245,6 +245,7 @@ height: 21px !important;
 .details{
     width: 450px;
     height: auto;
+    padding-top: 100px;
 }
 .easy{
     font-family: 'Poppins';
@@ -483,42 +484,89 @@ height: 21px !important;
 
 /* qustion section  */
 
-
-.qustion {
-    
-    position: relative;
-    top: -275px;
-    
-
+.qustionSection{
+    margin-top: -200px;
+    font-family: 'Poppins';
 }
 
-.all_quastion{
-    width: 100%;
-}
-
-
-
-.p_q{
-    background-color: #11181E;
-    margin: 20px 200px;
-    padding: 1px 20px;
-    width: auto;
-    
-}
-
-.p_q p{
-    height: 31px;
+.asked{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 800;
-    font-size: 20.7644px;
-    line-height: 31px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 93.6%;
+    /* or 45px */
+    text-align: center;
+    letter-spacing: -0.05em;
     text-transform: capitalize;
-    color: #FFFFFF;
-    margin-top: 2%;
-    padding-top: 4px;
+    color: #fff;
 }
 
+.accordion{
+    margin-top: 50px;
+}
+
+
+.containBox{
+    width: 946px;
+    background: #11181E;
+    padding: 25px 50px;
+    margin: 20px 0px;
+}
+
+.qustionTitle{
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contain{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .containBox.active .contain{
+    height: 50px;
+}
+
+
+.qustionTitle::after{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.57);
+    width: 22px;
+    height: 20px;
+}
+
+
+.accordion .containBox.active .qustionTitle::after{
+    content: "-";
+}
+
+
+
+.faq{
+    width: 791px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 147.6%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #fff;
+}
 
 
 
@@ -529,18 +577,18 @@ height: 21px !important;
 
 footer{
     width: 100%;
-    height: 230px;
+    height: 200px;
     background: #21213F;
     text-align: center;
-    margin-top: -100px;
+    margin-top: 100px;
 }
 
 footer img{
-    margin: 70px 40px;
+    margin: 50px 20px;
 }
 
 .copy_right{
-    margin-top: 36px;
+    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -549,6 +597,7 @@ footer img{
     text-align: center;
     text-transform: capitalize;
     color: #ABABAB;
+    
 }
 
 
